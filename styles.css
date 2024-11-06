@@ -1,14 +1,19 @@
-.dm-serif-text-regular {
-    font-family: "DM Serif Text", serif;
-    font-weight: 400;
-    font-style: normal;
+#socials {
+    font-size: 65px;
+    color: white;
+    transition: color 0.3s ease;
+    margin-bottom: 45%;
+    margin-right: 2%;
 }
-  
-.dm-serif-text-regular-italic {
-    font-family: "DM Serif Text", serif;
-    font-weight: 400;
-    font-style: italic;
+
+#socials:hover {
+    color: gray;
 }
+
+.fa-square-github {
+    margin-left: 42%;
+}
+
 
 #bg_video {
     width: 100vw;
@@ -18,4 +23,13 @@
     top: 0;
     position: fixed;
     z-index: -10;
+}
+
+h1{
+    color: rgb(252, 242, 214);
+    font-family: "PT Sans Caption", "consolas", "sans-serif";
+    font-weight: bold;
+    font-size: 65px;
+    margin-left: 31%;
+    margin-top: 30%;
 }
