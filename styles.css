@@ -1,9 +1,21 @@
+:root{
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+}
+
 #socials {
     font-size: 65px;
     color: white;
     transition: color 0.3s ease;
     margin-bottom: 45%;
     margin-right: 2%;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
 }
 
 #socials:hover {
@@ -14,6 +26,9 @@
     margin-left: 42%;
 }
 
+html {
+    -webkit-text-size-adjust: 100%;
+}
 
 #bg_video {
     width: 100vw;
