@@ -1,3 +1,3 @@
-# yannick-kahl.github.io
+# 9nickss.github.io
 
 website made out of boredom
